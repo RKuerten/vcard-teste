@@ -1,4 +1,6 @@
-"use strict";
+import { renderBookList } from "./books.js";
+
+renderBookList();
 
 // element toggle function
 const elementToggleFunc = function (elem) {
